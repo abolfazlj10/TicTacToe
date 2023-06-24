@@ -1,0 +1,173 @@
+@media screen and (max-width:550px) {
+    .Frame {
+        width: 450px;
+    }
+    .Text-Welcoms p {
+        font-size: 30px;
+    }
+    .ItemsGridPlay5 {
+        font-size: 60px;
+    }
+}
+@media screen and (max-width:500px) {
+    .Frame {
+        width: 400px;
+        height: 620px;
+    }
+    .StartGame{
+        grid-template-rows: 80px 350px 150px;
+    }
+    .NumberPlayerMove{
+        font-size: 30px;
+    }
+    .ItemsGridPlay3{
+        height: 140px;
+    }
+    .ItemsGridPlay5 {
+        height: 84px;
+    }
+    .ItemsGridPlay7{
+        height: 60px;
+        font-size: 40px;
+    }
+    
+}
+@media screen and (max-width:450px) {
+    .Frame {
+        width: 350px;
+        height: 580px;
+    }
+    .BtnNumberPlayer{
+        font-size: 18px;
+        padding: 10px 5px;
+        width: 142px;
+    }
+    .StartGame{
+        grid-template-rows: 70px 345px 129px;
+    }
+    .Text-Welcoms p {
+        font-size: 25px;
+    }
+    .Tool{
+        font-size: 20px;
+        width: 47px;
+        height: 42px;
+    }
+    .titrNumber{
+        font-size: 20px;
+    }
+    .ItemsGridPlay3{
+        height: 130px;
+    }
+    .ItemsGridPlay5 {
+        height: 77px;
+    }
+    .ItemsGridPlay7{
+        height: 56px;
+        font-size: 35px;
+    }
+    .ItemsGridPlay5 {
+        font-size: 50px;
+    }
+
+}
+@media screen and (max-width:400px) {
+    .Frame {
+        width: 300px;
+        height: 500px;
+    }
+    .StartGame{
+        grid-template-rows: 70px 270px 129px;
+    }
+    .GridItem3{
+        padding: 7px 40px;
+    }
+    .GridItem5{
+        padding: 7px 25px;
+    }
+    .GridItem7{
+        padding: 7px 20px;
+    }
+    .BorderColorChoseGrid3{
+        width: 18px;
+        height: 18px;
+    }
+    .BorderColorChoseGrid5{
+        width: 15px;
+        height: 15px;
+    }
+    .BorderColorChoseGrid7{
+        width: 13px;
+        height: 13px;
+    }
+    .ItemsGridPlay3{
+        height: 105px;
+    }
+    .NumberPlayerMove{
+        font-size: 25px;
+    }
+    .TitrGamePlay{
+        font-size: 20px;
+    }
+    .NumberPlace p{
+        font-size: 25px;
+    }
+    .ItemsGridPlay5 {
+        height: 65px;
+    } 
+    .ItemsGridPlay7{
+        height: 46px;
+        font-size: 30px;
+    }
+    .ItemsGridPlay5 {
+        font-size: 40px;
+    }
+
+}
+@media screen and (max-width:330px) {
+    .Frame {
+        width: 276px;
+        height: 453px;
+    }
+    .StartGame{
+        grid-template-rows: 43px 253px 76px;
+    }
+    .titrNumber{
+        font-size: 16px;
+    }
+    .BorderColorChoseGrid3{
+        width: 17px;
+        height: 17px;
+    }
+    .BorderColorChoseGrid5{
+        width: 14px;
+        height: 14px;
+    }
+    .BorderColorChoseGrid7{
+        width: 12px;
+        height: 12px;
+    }
+    .GridItem3{
+        padding: 5px 40px;
+    }
+    .GridItem5{
+        padding: 5px 25px;
+    }
+    .GridItem7{
+        padding: 5px 20px;
+    }
+    .ItemsGridPlay3{
+        height: 90px;
+    }
+    .ItemsGridPlay5 {
+        height: 55px;
+    }
+    .ItemsGridPlay7{
+        height: 40px;
+        font-size: 28px;
+    }
+    .ItemsGridPlay5 {
+        font-size: 35px;
+    }
+
+}

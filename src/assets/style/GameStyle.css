@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+body{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    background: linear-gradient(to right, #1488CC, #2B32B2);
+}
+.FilterBody{
+    filter: blur(10px);
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    box-shadow: rgb(0 0 0 / 46%) 1px 8px 9px 0px;
+}
+button:hover{
+    border: 0;
+    outline: 0;
+}
+.Frame {
+    width: 500px;
+    height: 660px;
+    background: linear-gradient(#E0EAFC , #b1c9ec);
+    padding: 10px;
+    border-radius: 10px;
+}
+.StartGame{
+    display: grid;
+    grid-template-rows: 80px 400px 150px;
+}
+.btnTool{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.Tool {
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #ebebeb;
+    background-color: rgb(0, 98, 255);
+    
+}
+.Sounds{
+    display: grid;
+    grid-template-columns: repeat(1 , auto);
+    justify-content: end;
+}
+
+.Text-Welcoms{
+    display: grid;
+    grid-template-rows: repeat(3 , auto);
+    justify-content: center;
+    position: relative;
+    color: tomato;
+}
+.Text-Welcoms p {
+    text-align: center;
+    font-size: 40px;
+}
+.btnStart{
+    display: grid;
+    justify-content: center;
+}
+.BtnNumberPlayer{
+    width: 180px;
+    background-color: rgb(0, 98, 255);
+    color: #ebebeb;
+    border-radius: 10px;
+    padding: 15px 10px;
+    font-size: 23px;
+}
+.choseGrid{
+    display: grid;
+    grid-template-rows: repeat(2 , auto);
+}
+.colorHr{
+    color: rgb(0, 98, 255);
+}
+.ChooseAgridColor{
+    color: tomato;
+    display: flex;
+    justify-content: center;
+}
+.SelectGrid{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    justify-content: center;
+}
+.ItemsSelectGrid{
+    background-color: rgb(0, 98, 255);
+    color: #ebebeb;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.BorderColorChoseGrid3{
+    border: #ebebeb 1px solid;
+    width: 20px;
+    height: 20px;
+}
+.BorderColorChoseGrid5{
+    border: #ebebeb 1px solid;
+    width: 18px;
+    height: 18px;
+}
+.BorderColorChoseGrid7{
+    border: #ebebeb 1px solid;
+    width: 15px;
+    height: 15px;
+}
+.titrNumber{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    font-size: 30px;
+}
+.GridItem3{
+    display: grid;
+    grid-template-columns: repeat(3 , auto);
+    grid-template-rows: repeat(3 , auto);
+    gap:2px 2px;
+    padding: 10px 40px;
+
+}
+.GridItem5{
+    display: grid;
+    grid-template-columns: repeat(5 , auto);
+    grid-template-rows: repeat(5 , auto);
+    gap: 1px 1px;
+    padding: 10px 25px;
+}
+.GridItem7{
+    display: grid;
+    grid-template-columns: repeat(7 , auto);
+    grid-template-rows: repeat(7 , auto);
+    gap: 1px 1px;
+    padding: 10px 20px;
+
+}
+.IconBtnTitr{
+    display: flex;
+    justify-content: space-between;
+}
+.TitrGamePlay{
+    color: tomato;
+    font-size: 25px;
+}
+.NumberPlayerMove{
+    color: rgb(0, 98, 255);
+    font-size: 35px;
+}
+.GridPlay3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.ItemsGridPlay3{
+    background-color: rgba(0, 98, 255, 0.717);
+    border: #b1c9ec 1px solid;
+    height: 150px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+.NumberPlace{
+    display: flex;
+    justify-content: center;
+    border-top: rgb(0, 98, 255) 1px solid;
+}
+.NumberPlace p {
+    color: rgb(0, 98, 255);
+    font-size: 30px;
+}
+.GridPlay5{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+}
+.ItemsGridPlay5{
+    background-color: rgba(0, 98, 255, 0.717);
+    border: #b1c9ec 1px solid;
+    height: 90px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+.GridPlay7{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    
+}
+.ItemsGridPlay7{
+    background-color: rgba(0, 98, 255, 0.717);
+    border: #b1c9ec 1px solid;
+    height: 65px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.informationModal{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 98, 255, 0.712);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 10px;
+    display: none;
+}
+.BtnCloseInfo{
+    display: flex;
+    justify-content: end;
+}
+.informationModal p{
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+.ShowInfoModal{
+    display: block;
+}
+.colorXmarkTag{
+    color: blue;
+}
+.colorCircleTag{
+    color: rgb(240, 88, 6);
+}
+.WinBox{
+    position: absolute;
+    background-color: rgba(0, 98, 255, 0.712);
+    grid-template-rows: 2fr 1fr;
+    justify-content: center;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 10px;
+    font-size: 20px;
+    display: none;
+}
+.PlayerInfoWin i {
+    font-size: 60px;
+    margin-left: 15px;
+}
+.PlayerInfoWin p{
+    margin-left: 5px;
+}
+.PlayerInfoWin{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+.BtnPlayAginWin{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.BtnPlayAginWin button {
+    background-color: #ebebeb;
+    color:rgb(0, 98, 255);
+}
+.SHowWinModal{
+    display: grid;
+}
